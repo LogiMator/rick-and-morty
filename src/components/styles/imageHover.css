@@ -1,0 +1,11 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .hovered {
+    /* Estilos adicionales cuando el mouse está sobre la imagen */
+    border: 2px solid red; /* Por ejemplo, borde rojo */
+    transform: scale(1.1);
+  }
